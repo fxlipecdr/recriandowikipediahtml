@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Página Principal - Wikki</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-    <div>   
+    <div class="container">   
         <div class="logo">
-            <img src="assets/images/logo.png" alt="Logo da Wikipedia"/>
+            <img src="assets/images/logo.png" alt="Logo da Wikipedia" width="100%"/>
+        </div>
+        <div class="botao">
+            <input type="text" placeholder="Pesquisar..">
+            <button type="submit">Pesquisar</button>
         </div>
     </div>
     </header>
@@ -24,10 +28,11 @@
     <aside>
         <div class="sidebar">
         
-            <h2>Filmes</h2>
-            <ul>
-                <li><a href="#">Vingadores</a></li>
-            </ul>
+            <h2>Marvel</h2>
+            <ol>
+                <li><a href="index.html">Vingadores</a></li>
+                <li><a href="inumanos.html">Inumanos</a></li>
+            </ol>
         </div>
     </aside>
     <main>
@@ -276,7 +281,7 @@
             <h3 id="animacoes">Animações</h3>
             <ul class="listaPadrao">
                 <li>As animações The Avengers: United They Stand, The Avengers: Earth's Mightiest Heroes, Avengers Assemble e Marvel Disk Wars: The Avengers são centradas na equipe. Em United They Stand, o grupo era formado por Homem Formiga, Vespa, Tigresa, Magnun, Feiticeira Escarlate, Gavião Arqueiro, Falcão e Visão. Em Earth's Mightiest Heroes, tem Homem de Ferro, Homem Formiga, Vespa, Hulk, Thor, Capitão América, Pantera Negra, Gavião Arqueiro, e Visão como Vingadores. Assemble tem o mesmo sexteto do filme de 2012 mais o Falcão, protagonista da série, e Homem-Formiga, agregado na segunda temporada.</li>
-            </ol>
+            </ul>
             <h3 id="cinema">Cinema</h3>
             <blockquote><i>Ver artigo principal: <a href="#">Vingadores (Universo Cinematografico Marvel)</a></i></blockquote>
             <figure>
@@ -377,7 +382,7 @@
     </div>
     <footer>
         <div class="footer">
-            <p>
+        <p>
                 Esta página foi editada pela última vez às 23h03min de 27 de agosto de 2023.
             </p>
             <p>
@@ -395,6 +400,5 @@
             </ul>
         </div>
     </footer>
-    </div>
 </body>
 </html>

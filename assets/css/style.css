@@ -6,7 +6,6 @@ body, html {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -16,6 +15,7 @@ table {
     box-sizing: border-box;
     text-indent: initial;
 }
+
 
 .infobox_v2 {
     background: #f9f9f9;
@@ -60,7 +60,7 @@ ul {
     list-style: square;
 }
 
-.anchors li:hover {
+.anchors ul li ul li:hover {
     text-decoration: underline;
 }
 
@@ -135,8 +135,15 @@ ol {
     font-weight: normal;
 }
 
-.logo {
+.botao {
+    margin-left: 25px;
+}
+
+.container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
 }
 
 figure {
